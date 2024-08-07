@@ -1,0 +1,22 @@
+Body{
+    padding-left: 20px;
+    
+}
+
+hr{
+    padding-right: 50px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    background-color: cadetblue;
+    padding: 10px;
+    border: black solid 2px;
+    border-radius: 5px;
+}
+
+a:hover{
+    font-size: 1.4rem;
+    transition: 2s;
+}

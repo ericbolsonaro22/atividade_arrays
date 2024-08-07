@@ -1,0 +1,61 @@
+body{
+    background-color: aliceblue;
+    color: cornflowerblue;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    background-color: cadetblue;
+    padding: 10px;
+    border: black solid 2px;
+    border-radius: 5px;
+}
+
+a:hover{
+    font-size: 1.4rem;
+    transition: 2s;
+}
+
+p{
+    font-size: 1.4rem;
+    padding-left: 400px;
+    padding-right: 400px;
+}
+
+label{
+    font-size: 1.4rem;
+}
+
+button{
+    padding: 7px;
+    color: white;
+    background-color: cornflowerblue;
+    font-size: 1rem;
+    border: black solid 3px;
+    border-radius: 5px;
+}
+
+button:hover{
+    font-size: 1.3rem;
+    transition: 2s;
+}
+
+input{
+    text-align: center;
+    border: black solid 3px;
+    padding: 7px;
+    border-radius: 5px;
+    font-size: large;
+}
+
+@media (max-width: 794px) {
+    body {
+        flex-direction: column;
+    }
+    
+    .container {
+        width: 80%;
+    }
+}
